@@ -5,7 +5,7 @@ const cors = require('cors');
 const port = 3000;
 
 let app = express();
-app.use(cors());
+app.use(cors());  
 
 //End Point 1
 function carTotal(newItemPrice, cartToatalto) {
